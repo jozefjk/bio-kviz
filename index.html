@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Biológia Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="quiz-container">
+
+        <h1>🧬 Biológia Quiz</h1>
+
+        <div class="top">
+            <span id="question-number">Otázka 1 / 10</span>
+            <span id="score">Skóre: 0</span>
+        </div>
+
+        <div class="question-box">
+            <h2 id="question">
+                Načítava sa otázka...
+            </h2>
+
+            <div id="answers">
+                <!-- Odpovede sa vytvoria pomocou JavaScriptu -->
+            </div>
+        </div>
+
+        <button id="next-button" onclick="nextQuestion()" disabled>
+            Ďalšia otázka →
+        </button>
+
+        <div id="result" class="result"></div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
